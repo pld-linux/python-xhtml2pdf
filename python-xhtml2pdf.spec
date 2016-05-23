@@ -10,7 +10,7 @@ Summary:	PDF generator using HTML and CSS
 Summary(pl.UTF-8):	Generator PDF używający HTML i CSS
 Name:		python-%{module}
 Version:	0.1a4
-Release:	2
+Release:	3
 License:	Apache v2.0
 Group:		Libraries/Python
 Source0:	https://pypi.python.org/packages/1c/04/a52a262a9ae6cd07b86baf2d9486d00da1dec5edf638cbe19c5983ebd266/xhtml2pdf-%{version}.tar.gz
@@ -36,6 +36,8 @@ BuildRequires:	python3-modules
 BuildRequires:	python3-pillow
 %endif
 Requires:	python-modules
+# /usr/bin/xhtml2pdf needs python-setuptools
+Requires:	python-setuptools
 Obsoletes:	python-pisa
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -53,6 +55,7 @@ Summary(pl.UTF-8):	Generator PDF używający HTML i CSS
 Group:		Libraries/Python
 Requires:	python3-modules
 Requires:	python3-pillow
+Requires:	python3-setuptools
 
 %description -n python3-%{module}
 html2pdf converter using the ReportLab Toolkit, the HTML5lib and

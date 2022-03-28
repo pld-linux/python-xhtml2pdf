@@ -10,7 +10,7 @@ Summary:	PDF generator using HTML and CSS
 Summary(pl.UTF-8):	Generator PDF używający HTML i CSS
 Name:		python-%{module}
 Version:	0.1a4
-Release:	4
+Release:	5
 License:	Apache v2.0
 Group:		Libraries/Python
 Source0:	https://pypi.python.org/packages/1c/04/a52a262a9ae6cd07b86baf2d9486d00da1dec5edf638cbe19c5983ebd266/xhtml2pdf-%{version}.tar.gz

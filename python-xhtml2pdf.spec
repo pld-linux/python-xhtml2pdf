@@ -29,10 +29,10 @@ BuildRequires:	python-pillow
 BuildRequires:	rpm-pythonprov
 %if %{with python3}
 BuildRequires:	python3-PyPDF2
-BuildRequires:	python3-ReportLab >= 2.2
 BuildRequires:	python3-html5lib >= 0.11.1
 BuildRequires:	python3-modules
 BuildRequires:	python3-pillow
+BuildRequires:	python3-reportlab >= 2.2
 %endif
 Requires:	python-modules
 # /usr/bin/xhtml2pdf needs python-setuptools

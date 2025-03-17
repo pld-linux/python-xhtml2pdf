@@ -13,9 +13,9 @@ Version:	0.1a4
 Release:	6
 License:	Apache v2.0
 Group:		Libraries/Python
-Source0:	https://pypi.python.org/packages/1c/04/a52a262a9ae6cd07b86baf2d9486d00da1dec5edf638cbe19c5983ebd266/xhtml2pdf-%{version}.tar.gz
+Source0:	https://files.pythonhosted.org/packages/source/x/xhtml2pdf/xhtml2pdf-%{version}.tar.gz
 # Source0-md5:	beb2d99bb99376a3a4f584599eacec23
-URL:		https://pypi.python.org/pypi/xhtml2pdf/
+URL:		https://pypi.org/project/xhtml2pdf/
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
 %if %{with python2}
